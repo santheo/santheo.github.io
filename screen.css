@@ -80,10 +80,34 @@ h2 {
     margin-bottom: .8em;
 }
 
+.readmore {
+    padding-top: 12px;
+}
+
+.readmore a {
+    border: 1px solid #A64B8C;
+    opacity: .7;
+    border-radius: 12px;
+    line-height: 1;
+    padding: 4px 10px;
+    color: #A64B8C;
+    text-transform: uppercase;
+    font-size: 13px;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+
+.readmore a:hover {
+    background: #A64B8C;
+    color: white;
+    opacity: 1;
+}
+
 /* FAMILY */
 
 .family ul {
     overflow: auto;
+    margin-bottom: 10px;
 }
 
 .family li {
