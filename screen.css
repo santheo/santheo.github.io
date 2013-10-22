@@ -165,3 +165,35 @@ footer {
     font-size: 14px;
     padding: 20px 0;
 }
+
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    header {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        padding: 20px;
+        border-radius: 10px;
+        opacity: .9;
+    }
+
+    header .nav li {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    h2 {
+        text-align: left;
+        float: left;
+        width: 25%;
+    }
+}
+
+
+
