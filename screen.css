@@ -1,7 +1,7 @@
 /* GENERAL */
 
 body {
-    font-family: "Alegreya";
+    font-family: "Alegreya", Georgia, serif;
     font-size: 18px;
     line-height: 1.4;
 }
@@ -156,6 +156,24 @@ h2 {
 
 .tsl img {
     width: 100px;
+}
+
+/* CONTACT */
+
+.contact textarea {
+    width: 300px;
+    height: 100px;
+    border: 1px solid #999;
+    margin: 0;
+}
+
+.contact button {
+    font-size: 20px;
+    border: #f7f7f7;
+    border-radius: 4px;
+    padding: 5px 8px;
+    font-size: 16px;
+    margin: 0;
 }
 
 /* FOOTER */
