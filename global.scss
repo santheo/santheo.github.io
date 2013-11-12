@@ -1,0 +1,35 @@
+@import "compass/css3/border-radius";
+@import "icons/*.png";
+
+// @include all-icons-sprites;
+
+.nav {
+    li {
+        padding: 0 18px;
+
+        a {
+            position: relative;
+
+            &:before {
+                content: "";
+                width: 16px;
+                height: 16px;
+                position: absolute;
+                top: 2px;
+                left: -22px;
+            }
+        }
+    }
+
+    .family a:before {
+        @include icons-sprite(leaf);
+    }
+
+    .tsl a:before {
+        @include icons-sprite(pencil-ruler);
+    }
+
+    .puzzling a:before {
+        @include icons-sprite(question);
+    }
+}
