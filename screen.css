@@ -39,7 +39,7 @@ h1 {
 }
 
 .nav li a {
-    color: rgba(255,255,255,.75);
+    color: #DBC5C9;
     text-decoration: none;
 }
 
@@ -94,6 +94,10 @@ h2 {
     transition: all 200ms ease-in;
 }
 
+.no-borderradius .readmore a {
+    /*Rules that only apply when border-radius isn't supported on the browser*/
+}
+
 .readmore a:hover {
     background: #A64B8C;
     color: white;
@@ -130,6 +134,9 @@ h2 {
 .family li:last-child {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+}
+
+.family li.zella {
     margin-right: 0;
 }
 
